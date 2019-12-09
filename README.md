@@ -1,1 +1,1 @@
-# cli-plugin-example
+# @imgcook/plugin-example

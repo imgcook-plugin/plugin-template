@@ -1,5 +1,5 @@
 {
-  "name": "plugin-template",
+  "name": "@imgcook/plugin-template",
   "version": "0.0.1",
   "description": "plugin template",
   "main": "index.js",

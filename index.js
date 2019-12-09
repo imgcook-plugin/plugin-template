@@ -1,10 +1,12 @@
 /**
- * @param fileValue: 文件内容，生成的代码
- * @param option: { filePath, index, config }
+ * @param option: { data, filePath, config }
+ * - data: 模块和生成代码
+ * - filePath: 下载文件存放目录
+ * - config: cli 配置
  */
-const pluginExample = async (fileValue, option) => {
-  const filePaths = {};
-  return filePaths;
+
+const pluginExample = async (option) => {
+  return option;
 };
 
 module.exports = (...args) => {
