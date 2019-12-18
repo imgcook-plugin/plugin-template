@@ -3,3 +3,4 @@ node_modules
 example
 .travis.yml
 *.swp
+package-lock.json

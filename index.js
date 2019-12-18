@@ -1,16 +1,19 @@
 /**
+ * @name plugin example
  * @param option: { data, filePath, config }
- * - data: 模块和生成代码
- * - filePath: 下载文件存放目录
- * - config: cli 配置
+ * - data: module and generate code Data
+ * - filePath: Pull file storage directory
+ * - config: cli config
  */
 
-const pluginExample = async (option) => {
-  return option;
+const pluginHandler = async options => {
+  let { data } = options;
+  // body...
+  return data;
 };
 
 module.exports = (...args) => {
-  return pluginExample(...args).catch(err => {
+  return pluginHandler(...args).catch(err => {
     console.log(err);
   });
 };
