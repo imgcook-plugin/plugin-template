@@ -1,6 +1,8 @@
 module.exports = {
   "moduleData": {
-    "name": "hook"
+    "id": 17679,
+    "name": "hook",
+    "cover": "https://img.alicdn.com/tfs/TB1mkjeqlr0gK0jSZFnXXbRRXXa-1404-1292.png",
   },
   "code": {
     "panelDisplay": [
