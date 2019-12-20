@@ -28,5 +28,6 @@ module.exports = (...args) => {
 
 ## Reference Example
 
-- Example 1：https://github.com/imgcook/imgcook-cli/tree/master/packages/%40imgcook/plugin-generate
-- Example 2: https://github.com/imgcook/imgcook-cli/tree/master/packages/%40imgcook/plugin-images
+- Example 1：https://github.com/imgcook-plugin/plugin-react-mod-add
+- Example 2：https://github.com/imgcook-plugin/plugin-generate
+- Example 3: https://github.com/imgcook-plugin/plugin-images
